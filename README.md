@@ -106,20 +106,6 @@ Similar to the content-based recommender, I built a function that accepts user i
 
 -----
 
-## Conclusion
-
-My **content-based recommender** successfully delivered highly similar recommendations. For instance, when provided with ['Good Harbor' by Anita Diamant](https://www.goodreads.com/en/book/show/25717), which describes "two women friends... sharing their personal histories and learning life's lessons," the system's recommendations were strikingly similar in plot:
-
-  * **["Vinegar Hill" by A. Manette Ansay](https://goodreads.com/book/show/4352215)**: Focuses on a wife enduring darkness after accompanying her unemployed husband.
-  * **["Echo House" by Ward Just](https://www.goodreads.com/en/book/show/2189204)**: Explores three generations of powerful men in Washington, D.C., pursuing power, money, and women.
-  * **["The Heaviness of Things That Float" by Jennifer Manuel"](https://goodreads.com/book/show/29044469)**: Depicts the lonely world of a woman without immediate family whose community faces upheaval after a young man she loves goes missing.
-  * **["The House on Swiss Avenue" by Irene Sandell](https://goodreads.com/book/show/20336442)**: Involves two women uncovering secrets that change their lives, one of whom is devoted to family memories and history.
-  * **["The Waiting Place" by Sharon Arrksey](https://goodreads.com/book/show/29890955)**: The protagonist contemplates her roles as a mother, wife, and partner on a family farm through the lives of women closest to her.
-
-It's clear that my recommendation system effectively used the feature data (primarily the text data) to identify books set in the modern era, mostly about adult women navigating crises. Family dynamics are frequently mentioned. These text examples, derived only from book summaries, represent just a fraction of the data inputted into the model. An additional test of my system on a children's book about animals also yielded children's books about animals. Thus, my recommendation system appears successful in providing similar books based on user input.
-
------
-
 ## Next Steps
 
 GoodReads offers numerous other metrics that could be integrated into these recommendation systems to enhance their accuracy and informational value.
